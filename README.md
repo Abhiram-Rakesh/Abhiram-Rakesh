@@ -45,7 +45,9 @@ spec:
     state: Actively learning and building
 ```
 
-<h3 align="left">Tech Stack</h3>
+<hr>
+
+<u><h3 align="left">🛠️ Tech Stack</h3></u>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=linux" height="60" alt="linux logo"  />
   <img width="12" />
@@ -75,23 +77,53 @@ spec:
   <img width="12" />
 </div>
 
-<h3 align="left">Socials</h3>
+<hr>
+
+<u><h3 align="left">📊 Stats</h3></u>
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitch&logo=twitch&label=&color=9146FF&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitch logo"  />
-  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
+     <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Abhiram-Rakesh&theme=tokyonight&hide_border=true&sideNums=e8df7a&fire=e8df7a&dates=e8df7a"><br>
+    <img src="https://github-readme-stats-ten-olive-80.vercel.app/api/top-langs/?username=Abhiram-Rakesh&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&layout=donut&custom_title=Ahtisham's%20Most%20Used%20Languages&text_color=e8df7a"><img src="https://github-readme-stats-ten-olive-80.vercel.app/api?username=Abhiram-Rakesh&show_icons=f&line_height=30&rank_icon=github&theme=tokyonight&hide_border=true&text_color=e8df7a"><br>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abhiram-Rakesh&theme=tokyonight&exclude={}" width="33%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Abhiram-Rakesh&theme=tokyonight&exclude={exclude}" width="33%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Abhiram-Rakesh&theme=tokyonight&utcOffset=+5" width="33%"><br>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhiram-Rakesh&theme=tokyonight" width="100%">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhiram-Rakesh&bg_color=1a1b26&color=c0caf5&line=7aa2f7&point=bb9af7&area=true&area_color=9ece6a&title_color=c0caf5&hide_border=true" />
+
 </div>
 
-<h3 align="left">Stats</h3>
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Abhiram-Rakesh&theme=tokyonight-duo&short_numbers=true)" height="150" alt="streak graph"  />
-</div>
-<br>
+<hr>
+
+<u><h3 align="left">🧪 Operational Metrics</h3></u>
+
+  - **Mean Time To Learn (MTTL)**: 📉 Decreasing
+
+  - **Deployment Frequency:** 🚀 Daily
+
+  - **Change Failure Rate:** 🚧 Acceptable (learning phase)
+
+  - **Mean Time To Recovery (MTTR):** ⏱️ Improving
+
+  - **Automation Coverage:** 🔁 Increasing
+
+  <br>
+<hr>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman-contribution-graph.svg">
 </picture>
+
+<hr>
+
+<u><h3 align="left">🌐 Socials</h3></u>
+
+<div align="center">
+  <a href="https://dev.to/abhiram_rakesh" target="_blank"><img src="https://img.shields.io/badge/DEV.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" height="25" alt="dev.to badge" /></a>
+  <a href="https://linkedin.com/in/abhiram-rakesh" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" alt="linkedin badge" /></a>
+  <a href="https://hashnode.com/@abhiram-rakesh" target="_blank"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" height="25" alt="hashnode badge" /></a>
+  <a href="https://youtube.com/@abhiram-rakesh" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="25" alt="youtube badge" /></a>
+  <a href="https://medium.com/@abhiramrakesh" target="_blank"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" height="25" alt="medium badge" /></a>
+</div>
+
+<hr>
+
+
