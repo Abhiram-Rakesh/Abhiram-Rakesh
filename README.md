@@ -1,6 +1,5 @@
 <h1 align="left">Oh Hey 👋</h1>
 
-
 ```yaml
 apiVersion: v25
 kind: Human
@@ -26,8 +25,7 @@ spec:
     - Creating Kubernetes clusters using kubeadm & Vagrant
     - Automating infrastructure with Terraform
   locations:
-    -
-      type: LinkedIn
+    - type: LinkedIn
       where: https://linkedin.com/in/abhiram-rakesh
   traits:
     strengths:
@@ -50,25 +48,32 @@ spec:
 ###
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
+  <img src="https://skillicons.dev/icons?i=linux" height="60" alt="linux logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="60" alt="nextjs logo"  />
+  <img src="https://skillicons.dev/icons?i=bash" height="60" alt="bash logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="60" alt="tailwindcss logo"  />
+  <img src="https://skillicons.dev/icons?i=docker" height="60" alt="docker logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="60" alt="storybook logo"  />
+  <img src="https://skillicons.dev/icons?i=jenkins" height="60" alt="jenkins logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=graphql" height="60" alt="graphql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=rust" height="60" alt="rust logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nestjs" height="60" alt="nestjs logo"  />
+  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="aws logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=py" height="60" alt="python logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
+  <img src="https://skillicons.dev/icons?i=kubernetes" height="60" alt="kubernetes logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=terraform" height="60" alt="terraform logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=git" height="60" alt="git logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=ansible" height="60" alt="ansible logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=grafana" height="60" alt="grafana logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=prometheus" height="60" alt="prometheus logo"  />
+  <img width="12" />
 </div>
 
 ###
@@ -99,6 +104,4 @@ spec:
        src="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman.svg">
 </picture>
 
-
 ###
-
