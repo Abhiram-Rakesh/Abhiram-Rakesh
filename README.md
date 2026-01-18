@@ -45,8 +45,7 @@ spec:
     state: Actively learning and building
 ```
 
-###
-
+<h3 align="left">Tech Stack</h3>
 <div align="center">
   <img src="https://skillicons.dev/icons?i=linux" height="60" alt="linux logo"  />
   <img width="12" />
@@ -76,8 +75,7 @@ spec:
   <img width="12" />
 </div>
 
-###
-
+<h3 align="left">Socials</h3>
 <div align="center">
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
@@ -86,22 +84,16 @@ spec:
   <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="devto logo"  />
 </div>
 
-###
-
+<h3 align="left">Stats</h3>
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=Abhiram-Rakesh&theme=tokyonight-duo&short_numbers=true)" height="150" alt="streak graph"  />
-<img src="https://github-profile-trophy.vercel.app?username=Abhiram-Rakesh&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8" height="150" alt="trophy graph" />
 </div>
-
-###
+<br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" 
-          srcset="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman-dark.svg">
-  <source media="(prefers-color-scheme: light)" 
-          srcset="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman.svg">
-  <img alt="pacman contribution graph" 
-       src="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/output/pacman-contribution-graph.svg">
 </picture>
 
-###
+_generated with [abozanona/pacman-contribution-graph](https://abozanona.github.io/pacman-contribution-graph/)_
