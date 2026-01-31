@@ -65,6 +65,8 @@ spec:
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=go" height="60" alt="go logo"  />
   <img width="12" />
+    <img src="https://skillicons.dev/icons?i=haskell" height="60" alt="haskell logo"  />
+  <img width="12" />
   <img src="https://skillicons.dev/icons?i=terraform" height="60" alt="terraform logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=git" height="60" alt="git logo"  />
