@@ -5,10 +5,10 @@ apiVersion: v25
 kind: Human
 metadata:
   name: Abhiram Rakesh
-  role: Aspiring DevOps Engineer
+  role: DevOps Engineer
   origin: India
 spec:
-  purpose: Build reliable infrastructure and grow into a production-grade DevOps engineer
+  purpose: Build reliable infrastructure and grow into a production first DevOps engineer
   focus:
     - Cloud Infrastructure
     - Containers & Kubernetes
@@ -22,16 +22,17 @@ spec:
   experience:
     - Building CI pipelines with GitHub Actions
     - Managing self-hosted CI runners
-    - Creating Kubernetes clusters using kubeadm & Vagrant
+    - Creating and managing Kubernetes clusters
     - Automating infrastructure with Terraform
   locations:
     - type: LinkedIn
       where: https://linkedin.com/in/abhiram-rakesh
   traits:
     strengths:
-      - Curious
-      - Consistent learner
-      - Detail-oriented
+      - Kubernetes
+      - Linux
+      - AWS
+      - Terraform
     mindset:
       - Learn by building
       - Automate everything possible
