@@ -41,7 +41,11 @@ jobs:
           U="${{ github.repository_owner }}"
           curl -sf "http://localhost:9000/api?username=$U&show_icons=false&line_height=30&rank_icon=github&theme=tokyonight&hide_border=true&text_color=e8df7a" -o stats/stats.svg
           curl -sf "http://localhost:9000/api/top-langs/?username=$U&theme=tokyonight&hide_border=true&layout=donut&custom_title=Abhiram's%20Most%20Used%20Languages&text_color=e8df7a" -o stats/top-langs.svg
-          ! grep -q "Something went wrong" stats/*.svg
+          if grep -q "Something went wrong" stats/*.svg; then
+            grep -hoE "<text[^>]*>[^<]*</text>" stats/*.svg | sed 's/<[^>]*>//g' | head -20
+            tail -30 "$RUNNER_TEMP/grs/server.log"
+            exit 1
+          fi
 
       - name: commit cards
         run: |
