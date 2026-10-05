@@ -19,6 +19,9 @@ jobs:
       - name: clone github-readme-stats
         run: git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git "$RUNNER_TEMP/grs"
 
+      - name: clone github-readme-activity-graph
+        run: git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git "$RUNNER_TEMP/rag"
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -35,12 +38,27 @@ jobs:
             sleep 2
           done
 
+      - name: start github-readme-activity-graph locally
+        working-directory: ${{ runner.temp }}/rag
+        env:
+          TOKEN: ${{ secrets.STATS_PAT || secrets.GITHUB_TOKEN }}
+          PORT: 5100
+        run: |
+          npm install --no-audit --no-fund
+          npm run build
+          nohup node dist/main.js > server.log 2>&1 &
+          for i in $(seq 1 30); do
+            curl -sf -o /dev/null http://localhost:5100/ && break
+            sleep 2
+          done
+
       - name: render cards
         run: |
           mkdir -p stats
           U="${{ github.repository_owner }}"
           curl -sf "http://localhost:9000/api?username=$U&show_icons=false&line_height=30&rank_icon=github&theme=tokyonight&hide_border=true&text_color=e8df7a" -o stats/stats.svg
           curl -sf "http://localhost:9000/api/top-langs/?username=$U&theme=tokyonight&hide_border=true&layout=donut&custom_title=Abhiram's%20Most%20Used%20Languages&text_color=e8df7a" -o stats/top-langs.svg
+          curl -sf "http://localhost:5100/graph?username=$U&bg_color=1a1b26&color=c0caf5&line=7aa2f7&point=bb9af7&area=true&area_color=9ece6a&title_color=c0caf5&hide_border=true" -o stats/activity-graph.svg || { tail -30 "$RUNNER_TEMP/rag/server.log"; exit 1; }
           if grep -q "Something went wrong" stats/*.svg; then
             grep -hoE "<text[^>]*>[^<]*</text>" stats/*.svg | sed 's/<[^>]*>//g' | head -20
             tail -30 "$RUNNER_TEMP/grs/server.log"

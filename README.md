@@ -88,7 +88,7 @@ spec:
     <img src="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/main/stats/top-langs.svg"><img src="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/main/stats/stats.svg"><br>
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Abhiram-Rakesh&theme=tokyonight&exclude={}" width="33%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Abhiram-Rakesh&theme=tokyonight&exclude={exclude}" width="33%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Abhiram-Rakesh&theme=tokyonight&utcOffset=+5" width="33%"><br>
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhiram-Rakesh&theme=tokyonight" width="100%">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhiram-Rakesh&bg_color=1a1b26&color=c0caf5&line=7aa2f7&point=bb9af7&area=true&area_color=9ece6a&title_color=c0caf5&hide_border=true" />
+<img src="https://raw.githubusercontent.com/Abhiram-Rakesh/Abhiram-Rakesh/main/stats/activity-graph.svg" />
 
 </div>
 
